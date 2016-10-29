@@ -4,17 +4,18 @@ Functions are blocks of code that can be called upon at any time to perform a sp
 
 ## Set-up && getting started.
 1. Fork and clone this repository.
-2. Run `nvm use 6.8.0`.
-3. Run `npm install`.
-4. Run `npm run check` to check your functions. Don't forget to console.log your functions.
-5. Run `npm run functions` to check tests.
+2. Open up a new terminal session.
+3. Run `nvm use 6.8.0`.
+4. Run `npm install`.
+5. Run `npm run check` to check your functions. Don't forget to console.log your functions.
+6. Run `npm run functions` to check tests.
 ```javascript
 function doesSomething(){
   return true;
 }
 console.log(doesSomething());
 ```
-6. When finished with each problem, commit and synch your work to github.
+7. When finished with each problem, commit and synch your work to github.
 
 ## Problems
 ------------------------------------------------------------
