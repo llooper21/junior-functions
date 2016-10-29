@@ -10,7 +10,13 @@
  * @param  {[number]} currentYear The year that this function is run
  * @return {[String]} Sample: 'Your age is either 11 or 12'
  */
+ function calculateAge(birthYear, currentYear) {
 
+ 	var beforeBday = currentYear - birthYear - 1;
+ 	var afterBday = currentYear - birthYear;
+ 	return ("Your age is either " + beforeBday + " or " + afterBday);
+ }
+console.log(calculateAge(2003, 2016));
 /**
  * CHALLENGE 002: PPAP REMIX JS style
  * ------------------------------------------------------------
