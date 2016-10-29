@@ -1,0 +1,16 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Functions exercise",
+  "main": "test/functions.test.js",
+  "scripts": {
+    "test": "ava --verbose test/*.test.js",
+    "functions": "npm test; exit 0",
+    "check": "node functions.js"
+  },
+  "author": "Junior-Devleague",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.16.0"
+  }
+}
